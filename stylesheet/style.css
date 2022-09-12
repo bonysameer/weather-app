@@ -1,0 +1,137 @@
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+   background: #222;
+   background-color: steelblue;
+  /* background-image: url('https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+   background-image: url("https://static.scientificamerican.com/sciam/cache/file/4E0744CD-793A-4EF8-B550B54F7F2C4406.jpg");*/
+  background-image: url("https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-attachment: fixed;
+  background-position: center;
+   font-size: 120%;
+ }
+ #image{
+   width: 100%;
+ }
+ .card {
+   background: #000000d0;
+   color: white;
+   padding: 2em;
+   border-radius: 30px;
+   width: 100%;
+   max-width: 420px;
+   margin: 1em;
+ }
+ 
+ .search {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ button {
+   margin: 0.5em;
+   border-radius: 50%;
+   border: none;
+   height: 44px;
+   width: 44px;
+   outline: none;
+   background: #7c7c7c2b;
+   color: white;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+ }
+ 
+ input.search-bar {
+   border: none;
+   outline: none;
+   padding: 0.4em 1em;
+   border-radius: 24px;
+   background: #7c7c7c2b;
+   color: white;
+   font-family: inherit;
+   font-size: 105%;
+   width: calc(100% - 100px);
+ }
+ 
+ button:hover {
+   background: #7c7c7c6b;
+ }
+ 
+ h1.temp {
+   margin: 0;
+   margin-bottom: 0.4em;
+ }
+ 
+ .flex {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .description {
+   text-transform: capitalize;
+   margin-left: 8px;
+ }
+ 
+ .weather.loading {
+   visibility: hidden;
+   max-height: 20px;
+   position: relative;
+ }
+ 
+ .weather.loading:after {
+   visibility: visible;
+   content: "Loading...";
+   color: white;
+   position: absolute;
+   top: 0;
+   left: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
